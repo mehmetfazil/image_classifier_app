@@ -68,7 +68,7 @@ uild the Docker image with
 
     docker build .
     
-It will create an image something like 32afacdad806. If you can not find the image Then you can run it with 
+It will create an image something like 32afacdad806. If you can not find the image you can run docker images. Then you can run it with 
 
     docker run -p 5000:5000 --volume=/path/to/repo/image-classifier-app:/app 32afacdad806
 
