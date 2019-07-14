@@ -17,7 +17,8 @@ graph = tf.get_default_graph()
 def upload_and_predict():
     if request.method == 'POST':
         file = request.files['file']
-        filename = file.filename
+        #filename = file.filename
+        filename='uploaded_image'
         file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
         file.save(file_path)
         img = image.load_img(file_path, target_size=(224, 224))

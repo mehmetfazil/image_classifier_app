@@ -2,11 +2,6 @@
 
 We've all been there. You train a fancy model, get strong results, then what? It is usually meaningless if you can't make it accessible by the people who need it. So you have to serve your model somehow. Fear no more, I got you covered. In this post I will guide you through from zero to hero and show how to deploy your model with a web application. For this project, we will use Keras model and deploy it with Flask using Docker. Do not hesitate if you are not familiar with them, I will give a basic overview of each step.
 
-Requirements
-- Python, definetely
-- A Keras model
-- Docker
-
 # Preparing
 
 
